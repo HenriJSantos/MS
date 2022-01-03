@@ -1,0 +1,20 @@
+"AGGREGATE_BY_LANE_BUNDLEID", ID de cada registo (
+"AGG_ID", 
+"EQUIPMENTID", 
+"AGG_PERIOD_START",
+"AGG_PERIOD_LEN_MINS",
+"NR_LANES",
+"LANE_BUNDLE_DIRECTION",
+"TOTAL_VOLUME",
+"AVG_SPEED_ARITHMETIC",
+"AVG_SPEED_HARMONIC",
+"AVG_LENGTH", entre eixos (
+"AVG_SPACING", eixo traseiro com eixo dianteiro (sensores piesoelétricos)
+"OCCUPANCY", Ocupação em (%); área ocupada do sensor, ou tempo de ocupação (em 5 mins)
+"LIGHT_VEHICLE_RATE",
+"VOLUME_CLASSE_A",
+"VOLUME_CLASSE_B",
+"VOLUME_CLASSE_C",
+"VOLUME_CLASSE_D",
+"VOLUME_CLASSE_0",
+"AXLE_CLASS_VOLUMES",
