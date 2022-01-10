@@ -23,54 +23,9 @@ def parse_hour(hour, array):
 
     for index, row in df.iterrows():
         if hour in row['AGG_PERIOD_START']:
-            if row['EQUIPMENTID'] == 161:
-                aux[161] = aux[161] + 1
-            elif row['EQUIPMENTID'] == 163:
-                aux[163] = aux[163] + 1
-            elif row['EQUIPMENTID'] == 165:
-                aux[165] = aux[165] + 1
-            elif row['EQUIPMENTID'] == 166:
-                aux[166] = aux[166] + 1
-            elif row['EQUIPMENTID'] == 167:
-                aux[167] = aux[167] + 1
-            elif row['EQUIPMENTID'] == 169:
-                aux[169] = aux[169] + 1
-            elif row['EQUIPMENTID'] == 170:
-                aux[170] = aux[170] + 1
-            elif row['EQUIPMENTID'] == 171:
-                aux[171] = aux[171] + 1
-            elif row['EQUIPMENTID'] == 172:
-                aux[172] = aux[172] + 1
-            elif row['EQUIPMENTID'] == 173:
-                aux[173] = aux[173] + 1
-            elif row['EQUIPMENTID'] == 175:
-                aux[175] = aux[175] + 1
-            elif row['EQUIPMENTID'] == 177:
-                aux[177] = aux[177] + 1
-            elif row['EQUIPMENTID'] == 178:
-                aux[178] = aux[178] + 1
-            elif row['EQUIPMENTID'] == 179:
-                aux[179] = aux[179] + 1
-            elif row['EQUIPMENTID'] == 182:
-                aux[182] = aux[182] + 1
-            elif row['EQUIPMENTID'] == 183:
-                aux[183] = aux[183] + 1
-            elif row['EQUIPMENTID'] == 184:
-                aux[184] = aux[184] + 1
-            elif row['EQUIPMENTID'] == 186:
-                aux[186] = aux[186] + 1
-            elif row['EQUIPMENTID'] == 187:
-                aux[187] = aux[187] + 1
-            elif row['EQUIPMENTID'] == 188:
-                aux[188] = aux[188] + 1
-            elif row['EQUIPMENTID'] == 189:
-                aux[189] = aux[189] + 1
-            elif row['EQUIPMENTID'] == 192:
-                aux[192] = aux[192] + 1
-            elif row['EQUIPMENTID'] == 193:
-                aux[193] = aux[193] + 1
-            elif row['EQUIPMENTID'] == 194:
-                aux[194] = aux[194] + 1
+            if row['EQUIPMENTID'] == 124680:
+                continue
+            aux[row['EQUIPMENTID']] = aux[row['EQUIPMENTID']] + 1
 
     data = []
     for key in aux:
