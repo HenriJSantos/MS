@@ -2,6 +2,11 @@ import pandas as pd
 
 df = pd.read_csv("data/1P2015AEDL.csv", header=0, sep=",", low_memory=False)
 df['AGG_PERIOD_START'] = pd.to_datetime(df['AGG_PERIOD_START'])
+df['day_of_week'] = df['AGG_PERIOD_START'].dt.dayofweek
+
+days = {0:'Mon',1:'Tues',2:'Weds',3:'Thurs',4:'Fri',5:'Sat',6:'Sun'}
+df['day_of_week'] = df['day_of_week'].apply(lambda x: days[x])
+
 df = df[(df['AGG_PERIOD_START'] >= pd.to_datetime("2015-01-01")) &
         (df['AGG_PERIOD_START'] < pd.to_datetime("2015-01-02"))]  # Get one day of data
 df = df.sort_values(by=['EQUIPMENTID', 'AGG_PERIOD_START'])
