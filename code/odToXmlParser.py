@@ -1,8 +1,8 @@
 from fileinput import filename
 
 name = "matrix"
-fileNameRead = "Sumo/Simulation/od-matrixes/" + name + ".csv"
-fileNameWrite = "Sumo/Simulation/od-matrixes-xml/" + name + ".xml"
+fileNameRead = "../Sumo/Simulation/od-matrixes/" + name + ".csv"
+fileNameWrite = "../Sumo/Simulation/od-matrixes-xml/" + name + ".xml"
 
 idName = "test"
 startTime = "0.00"
@@ -34,10 +34,13 @@ for line in fr:
         if j == 0:
             origin = o
         else:
-            textToWrite = textToWrite + "        <tazRelation from=\"" + \
-                origin + "\" to=\"" + \
-                destinations[j - 1] + "\" count=\"" + \
-                o.replace('\n', '') + "\"/>\n"
+            if o == '':
+                continue
+            else:
+                textToWrite = textToWrite + "        <tazRelation from=\"O" + \
+                    origin + "\" to=\"D" + \
+                    destinations[j - 1] + "\" count=\"" + \
+                    o.replace('\n', '') + "\"/>\n"
 
         j = j + 1
 

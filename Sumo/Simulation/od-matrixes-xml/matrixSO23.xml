@@ -483,29 +483,6 @@
         <tazRelation from="O22" to="D18" count="4"/>
         <tazRelation from="O22" to="D19" count="4"/>
         <tazRelation from="O22" to="D20" count="4"/>
-        <tazRelation from="O22" to="D21" count=""/>
-        <tazRelation from="O23" to="D1" count="70"/>
-        <tazRelation from="O23" to="D2" count="4"/>
-        <tazRelation from="O23" to="D3" count="4"/>
-        <tazRelation from="O23" to="D4" count="4"/>
-        <tazRelation from="O23" to="D5" count="5"/>
-        <tazRelation from="O23" to="D6" count="5"/>
-        <tazRelation from="O23" to="D7" count="5"/>
-        <tazRelation from="O23" to="D8" count="5"/>
-        <tazRelation from="O23" to="D9" count="5"/>
-        <tazRelation from="O23" to="D10" count="5"/>
-        <tazRelation from="O23" to="D11" count="5"/>
-        <tazRelation from="O23" to="D12" count="5"/>
-        <tazRelation from="O23" to="D13" count="5"/>
-        <tazRelation from="O23" to="D14" count="5"/>
-        <tazRelation from="O23" to="D15" count="5"/>
-        <tazRelation from="O23" to="D16" count="5"/>
-        <tazRelation from="O23" to="D17" count="5"/>
-        <tazRelation from="O23" to="D18" count="5"/>
-        <tazRelation from="O23" to="D19" count="5"/>
-        <tazRelation from="O23" to="D20" count="5"/>
-        <tazRelation from="O23" to="D21" count="5"/>
-        <tazRelation from="O23" to="D22" count=""/>
         <tazRelation from="O24" to="D1" count="70"/>
         <tazRelation from="O24" to="D2" count="4"/>
         <tazRelation from="O24" to="D3" count="4"/>
