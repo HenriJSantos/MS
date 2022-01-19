@@ -1,4 +1,85 @@
 <additional>
   <edgeData id="simData" freq="300" file="simData.xml"/>
   <laneData id="simData" freq="300" file="simDataLane.xml"/>
+
+  <!-- radars-->
+  <inductionLoop id="1063682_5_E0" lane="1063682_0" pos="-50" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="1063682_5_E1" lane="1063682_1" pos="-50" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="1063682_5_E2" lane="1063682_2" pos="-50" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="1063682_5_E3" lane="1063682_3" pos="-50" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="1063512_5_I0" lane="1063512_0" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="1063512_5_I1" lane="1063512_1" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="1063512_5_I2" lane="1063512_2" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="1063512_5_I3" lane="1063512_3" pos="0" freq="3600" file="radar_out.xml"/>
+
+  <inductionLoop id="1062244_6_E0" lane="1062244_0" pos="-50" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="1062244_6_E1" lane="1062244_1" pos="-50" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="1062244_6_E2" lane="1062244_2" pos="-50" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="1062244_6_E3" lane="1062244_3" pos="-50" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="1051023_6_I0" lane="1051023_0" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="1051023_6_I1" lane="1051023_1" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="1051023_6_I2" lane="1051023_2" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="1051023_6_I3" lane="1051023_3" pos="0" freq="3600" file="radar_out.xml"/>
+
+  <inductionLoop id="1062753_7_E0" lane="1062753_0" pos="150" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="1062753_7_E1" lane="1062753_1" pos="150" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="1062753_7_E2" lane="1062753_2" pos="150" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="1051020_7_I0" lane="1051020_0" pos="-200" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="1051020_7_I1" lane="1051020_1" pos="-200" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="1051020_7_I2" lane="1051020_2" pos="-200" freq="3600" file="radar_out.xml"/>
+
+  <inductionLoop id="121734_8_E0" lane="1051025_0" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121734_8_E1" lane="1051025_1" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121734_8_E2" lane="1051025_2" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121734_8_E3" lane="1051025_3" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121734_8_I0" lane="1016654_0" pos="125" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121734_8_I1" lane="1016654_1" pos="125" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121734_8_I2" lane="1016654_2" pos="125" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121734_8_I3" lane="1016654_3" pos="125" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121734_8_I4" lane="1016654_4" pos="125" freq="3600" file="radar_out.xml"/>
+
+  <inductionLoop id="121735_9_E0" lane="1051026_0" pos="300" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121735_9_E1" lane="1051026_1" pos="300" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121735_9_E2" lane="1051026_2" pos="300" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121735_9_I0" lane="1016653_0" pos="300" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121735_9_I1" lane="1016653_1" pos="300" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121735_9_I2" lane="1016653_2" pos="300" freq="3600" file="radar_out.xml"/>
+
+  <inductionLoop id="121736_10_E0" lane="1062939_0" pos="500" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121736_10_E1" lane="1062939_1" pos="500" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121736_10_E2" lane="1062939_2" pos="500" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121736_10_I0" lane="2020467_0" pos="500" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121736_10_I1" lane="2020467_1" pos="500" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121736_10_I2" lane="2020467_2" pos="500" freq="3600" file="radar_out.xml"/>
+
+  <inductionLoop id="121741_11_E0" lane="1254018_0" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121741_11_E1" lane="1254018_1" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121741_11_E2" lane="1254018_2" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121741_11_I0" lane="1020008_0" pos="300" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121741_11_I1" lane="1020008_1" pos="300" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121741_11_I2" lane="1020008_2" pos="300" freq="3600" file="radar_out.xml"/>
+
+  <inductionLoop id="121742_12_E0" lane="1254015_0" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121742_12_E1" lane="1254015_1" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121742_12_E2" lane="1254015_2" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121742_12_E3" lane="1254015_3" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121742_12_I0" lane="1020009_0" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121742_12_I1" lane="1020009_1" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121742_12_I2" lane="1020009_2" pos="0" freq="3600" file="radar_out.xml"/>
+
+  <inductionLoop id="121754_19_E0" lane="1176004_0" pos="200" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121754_19_E1" lane="1176004_1" pos="200" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121754_19_I0" lane="1175979_0" pos="200" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121754_19_I1" lane="1175979_1" pos="200" freq="3600" file="radar_out.xml"/>
+
+  <inductionLoop id="121755_20_E0" lane="1176005_0" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121755_20_E1" lane="1176005_1" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121755_20_I0" lane="1176008_0" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121755_20_I1" lane="1176008_1" pos="0" freq="3600" file="radar_out.xml"/>
+
+  <inductionLoop id="121756_21_E0" lane="1181566_0" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121756_21_E1" lane="1181566_1" pos="0" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121756_21_I0" lane="2027240_0" pos="200" freq="3600" file="radar_out.xml"/>
+  <inductionLoop id="121756_21_I1" lane="2027240_0" pos="200" freq="3600" file="radar_out.xml"/>
+
 </additional>
