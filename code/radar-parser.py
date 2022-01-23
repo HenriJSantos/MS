@@ -5,7 +5,8 @@ import numpy as np
 tree = ET.parse('Sumo/Simulation/radar_out.xml')
 root = tree.getroot()
 
-df = pd.DataFrame(columns=["EQUIPMENTID","LANE_BUNDLE_DIRECTION","LANE","HOUR","TOTAL_VOLUME"])
+df = pd.DataFrame(
+    columns=["EQUIPMENTID", "LANE_BUNDLE_DIRECTION", "LANE", "HOUR", "TOTAL_VOLUME"])
 for child in root:
     attribs = child.attrib
     hour = int(float(attribs['begin'])) / 3600
