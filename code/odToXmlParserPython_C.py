@@ -1,6 +1,6 @@
 from fileinput import filename
 
-name = "matrizOD_c"
+name = "matrizOD_c_Mon_12"
 fileNameRead = "../code/" + name + ".csv"
 fileNameWrite = "../Sumo/Simulation/od-matrixes-xml/" + name + ".xml"
 
