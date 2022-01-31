@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2022-01-23 18:28:53 by Eclipse SUMO od2trips Version 1.11.0
+<!-- generated on 2022-01-31 17:28:25 by Eclipse SUMO od2trips Version 1.11.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/od2tripsConfiguration.xsd">
 
     <input>
-        <taz-files value="AnelInternoExternoTaz.xml"/>
-        <tazrelation-files value="od-matrixes-xml/matrizOD_cd_Mon_12.xml"/>
+        <taz-files value="InnerOuterRingTaz.xml"/>
+        <tazrelation-files value="od-matrixes-xml/matrixOD_cd_Mon_12.xml"/>
     </input>
 
     <output>
